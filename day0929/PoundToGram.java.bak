@@ -1,0 +1,8 @@
+import java.util.Scanner;
+class PoundToGram 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
