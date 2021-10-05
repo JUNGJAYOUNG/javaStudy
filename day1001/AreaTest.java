@@ -34,6 +34,7 @@ class AreaTest
 			System.out.println(name+"의 면적:"+result+"π");
 		}else{
 			System.out.println("잘못된 입력입니다.");
+			//return; //여기에서 main메소드를 종료합니다.
 		}
 
 	}
