@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class SortArray03 
+class StudentTest 
 {
 	public static void main(String[] args) 
 	{
@@ -57,7 +57,8 @@ class SortArray03
 		System.out.println("** 성적 처리 결과 **");
 		System.out.print("이름\t국어\t영어\t수학\t총점\t평균");
 		for(int i=0;i<name.length;i++){
-			System.out.println(name[i]+"\t"+kor[i]+"\t"+eng[i]+"\t"+math[i]+"\t"+tot[i]+"\t"+avg[i]);
+			//System.out.println(name[i]+"\t"+kor[i]+"\t"+eng[i]+"\t"+math[i]+"\t"+tot[i]+"\t"+avg[i]);
+			System.out.prinf("%s\t%d\t%d\t%d\t%d\t.1f\n",name[i],kor[i],eng[i],math[i],tot[i],avg[i]);
 		}	
 	}	
 }
