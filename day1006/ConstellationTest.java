@@ -128,10 +128,10 @@ class ConstellationTest
 			
 			do{
 				System.out.print("또하시겠어요?(y/n)==>");
-				yesNo = input.next();
-				if (yesNo.charAt(0)=='y'||yesNo.charAt(0)=='Y'){
+				yesNo = input.next().charAt(0);
+				if (yesNo=='y'||yesNo=='Y'){
 					flag=true;
-				}else if(yesNo.charAt(0)=='n'||yesNo.charAt(0)=='N'){
+				}else if(yesNo=='n'||yesNo=='N'){
 					flag=false;
 				}else{
 					//모르겠다..
