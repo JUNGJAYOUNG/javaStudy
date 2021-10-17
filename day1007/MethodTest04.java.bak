@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Exam
+class MyUtil
 {
 	boolean checkArray(int []a,int []b){
 		if(a.length!=b.length){	//배열의 길이 비교 
